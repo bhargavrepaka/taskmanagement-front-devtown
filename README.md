@@ -28,8 +28,8 @@ This project is a simple yet powerful task management application designed to he
    - Edit and delete tasks.
 
 3. **AWS Integration:**
-   - Store tasks in an AWS DynamoDB database.
-   - Utilize AWS Lambda for serverless processing, e.g., task validation.
+   - Store tasks in an AWS RDS database.
+   - Utilize AWS EC2 for running the server.
 
 4. **Frontend:**
    - User-friendly interface designed with React.js.
@@ -48,3 +48,30 @@ This project is a simple yet powerful task management application designed to he
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/task-management-app.git
+
+   <h2>🛠️ Installation Steps:</h2>
+
+<p>1. Install Dependencies</p>
+
+```
+npm install
+```
+
+<p>2. Run the application</p>
+
+```
+npm start
+```
+
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   MongoDB
+*   Express.js
+*   React.js
+*   Node.js
+*   AWS (RDS EC2)
+*   JWT (JSON Web Tokens)
